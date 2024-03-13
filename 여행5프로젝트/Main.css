@@ -1,0 +1,183 @@
+
+html,body{ height:100%;margin:0;padding:0;box-sizing: border-box;overflow-x: hidden;}
+
+body{
+    font: 12px verdana, sans-serif;
+}
+.header{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 28px;
+    background-color: white;
+    font-size: 15px;
+    padding: 10px;
+    box-shadow: 5px 2px 2px gray;
+}
+
+.logo{
+    font-size: 20px;
+    color: black;
+}
+.logo> div{
+    position: relative;
+    left: 250px;
+}
+.row{
+    display: flex;
+}
+.row > div{
+    padding: 0 20px;
+    position: relative;
+    left: 1100px;
+}
+.row > div > a{
+    text-decoration: none;
+    color: black;
+}
+.row > div :hover{
+    font-weight: bold;
+}
+.slideimage{
+       padding:10px,10px;
+       border-bottom: 1px solid black;     
+       background-size: 100% 100%;
+       height: 40%;
+       padding-top:150px;
+       }
+
+#title {
+    height:30%;
+    width:100%;
+    padding:40px;
+}
+.container{
+       background-color:;
+       display: flex;
+       flex-direction: column;
+       margin: 0;
+}
+
+.main > img{
+
+    width: 100%;
+    height: 600px;
+}
+
+.leftfunc > img{
+    width: 100%;
+    height: 100%;
+}
+#cont{
+    display: flex;
+}
+
+#cont > .leftside{
+	   display: flex;
+       flex-direction: column;
+}
+
+#cont > .rightside{
+    border-left: 10px black;
+    width: px;
+    height: px;
+}
+
+.leftside, .rightside{
+    flex-basis: 33%;
+    flex-shrink: 1;
+}
+.content{
+    padding: 10px;
+    flex-basis: 33%;
+    height: 700px;
+}
+
+footer{
+    border-top:1px solid gray;
+    padding:20px;
+    text-align: center;
+    background-color: url("background.jpg"); 
+}
+
+.text{
+    display: none;
+}
+._text{
+    display: inline;
+}
+
+.boxes{
+    width: 73px;
+    opacity: 0.7;
+    color: black;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    
+}
+.boxes:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+.map{
+	 position: absolute;
+	  
+}
+#first{
+	width: 100%;
+	height: 100%;
+}
+
+#firstA{
+	top: -480px;
+	left: 160px;
+}
+
+#firstB{
+    top: -460px;
+    left: 160px;
+}
+
+#twoB{
+    top: -530px;
+    left: 280px;
+}
+
+#threeB{
+    top: -400px;
+    left: 130px;
+}
+
+#fourB{
+    top: -430px;
+    left: 210px;
+}
+
+#fiveB{
+    top: -410px;
+    left: 310px;
+}
+
+#sixB{
+    top: -370px;
+    left: 160px;
+}
+
+#sevenB{
+    top: -300px;
+    left: 140px;
+}
+#eightB{
+    top: -370px;
+    left: 270px;
+}
+
+#nineB{
+	top: -200px;
+	left: 270px;
+}
+#tenB{
+	top: -675px;
+	left: 120px;
+}
